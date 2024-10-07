@@ -1,0 +1,42 @@
+experiment_name: flan_t5_base_nlg
+destpath: ./runs/flan_t5_base_nlg/
+datapath: ../../data/pptod/
+task: nlg
+
+model:
+  wildcard: google/flan-t5-base
+  model_max_length: 512
+  use_aspn: True
+
+train:
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  gradient_checkpointing: False
+  learning_rate: 0.0001
+  num_epochs: 20
+  seed: 42
+  fp16: False
+  save_eval_steps: 1
+  evaluation_strategy: epoch
+  save_strategy: epoch
+  resume_training: True
+  tf32: False
+  bf16: False
+  save_total_limit: 2
+  metric_for_best_model: loss
+  greater_is_better: False
+  early_stopping_patience: 5
+  warmup_ratio: 0.1
+  use_lora: False
+  train_in_4bit: False
+
+dev:
+  per_device_eval_batch_size: 8
+  sample: False
+  num_beams: 1
+  max_resp_length: 128
+  top_k: 8
+  top_p: 0.9
+  temperature: 0.85
+
+use_wandb: True

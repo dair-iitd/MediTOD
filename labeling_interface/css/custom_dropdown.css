@@ -1,0 +1,35 @@
+.custom_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.custom_dropdown-content {
+    /* display: none; */
+    position: absolute;
+    background-color: #e9fac2;
+    border: 1px solid #000000;
+    z-index: 1;
+    overflow-y: scroll;
+    max-height: 250px;
+    width: 100%;
+}
+
+.custom_dropdown-content a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #000000;
+}
+
+.custom_dropdown a:hover {
+    background-color: #d4f587;
+}
+
+.custom_dropdown_entry-highlight {
+    background-color: #d4f587;
+}
+
+.custom_show {
+    display: block;
+}

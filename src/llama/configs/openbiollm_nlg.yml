@@ -1,0 +1,39 @@
+experiment_name: obl3_8b_ht4_nlg_templated
+destpath: ./runs/obl3_8b_ht4_nlg_templated/
+datapath: ../../data/pptod/
+tasks:
+  - nlg
+history_size: 4
+system_message:
+  nlu: Given the dialog history and the last turn, identify the patient's intent, slots, and related attributes.
+  pol: Given the current state, history, and last turn of a dialog between a doctor and a patient, suggest the doctor's action as a continuation of the dialog.
+  nlg: Given the action, dialog history and last turn of a dialog between a doctor and a patient, suggest the doctor's response as a continuation of the dialog.
+
+model:
+  wildcard: aaditya/Llama3-OpenBioLLM-8B
+  max_seq_length: 768 # LLama3 tokenizer is high fidelity. So this value works
+  quantization: 4
+
+train:
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 1
+  gradient_checkpointing: false
+  learning_rate: 0.0001
+  num_epochs: 10
+  seed: 42
+  fp16: false
+  save_eval_steps: 512
+  evaluation_strategy: steps
+  save_strategy: steps
+  save_total_limit: 2
+  metric_for_best_model: loss
+  greater_is_better: false
+  early_stopping_patience: 5
+  warmup_ratio: 0.1
+  lr_scheduler: cosine
+  group_by_length: true
+
+dev:
+  per_device_eval_batch_size: 4
+
+use_wandb: true

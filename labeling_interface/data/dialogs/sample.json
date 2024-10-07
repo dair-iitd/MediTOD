@@ -1,0 +1,837 @@
+{
+  "dlg_id": "RES0001",
+  "utterances": [
+    {
+      "speaker": "doctor",
+      "uttr_id": 0,
+      "text": "What brings you in today?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 1,
+      "text": "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
+      "keywords": [
+        "chest"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 2,
+      "text": "OK, um how old are you, Jen?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 3,
+      "text": "Um 52.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 4,
+      "text": "OK when did this pain start? You said a week back?",
+      "keywords": [
+        "back",
+        "pain",
+        "said"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 5,
+      "text": "Uh, yeah, just about that I I think maybe 8 days ago.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 6,
+      "text": "OK, and is it a constant pain? Is it always there?",
+      "keywords": [
+        "pain"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 7,
+      "text": "Ahh it it is, but it's definitely worse that um, it's the breathing that's been bothering me a lot more. When I take a deep breath that the pain is a lot worse.",
+      "keywords": [
+        "lot",
+        "pain"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 8,
+      "text": "OK, OK um. And when you do get that, get that pain. How long does it last?",
+      "keywords": [
+        "pain"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 9,
+      "text": "Um I would say, uh. Around 15-20 minutes. It's it goes away over overtime.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 10,
+      "text": "OK, and the shortness of breath do you have that at rest as well?",
+      "keywords": [
+        "shortness of breath"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 11,
+      "text": "Uh no if I if I take a break or sit down to rest then I can usually catch my breath. But if even if I'm doing a little bit of exertion like walking a few a few blocks or something like that I'm finding it, I'm I'm short of breath.",
+      "keywords": [
+        "finding"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 12,
+      "text": "OK um do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?",
+      "keywords": [
+        "back",
+        "chest",
+        "trauma"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 13,
+      "text": "Uh, No, no one else has been sick. I I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.",
+      "keywords": [
+        "chest infection",
+        "cough",
+        "feverish",
+        "sick"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 14,
+      "text": "OK, the cough is it still there?",
+      "keywords": [
+        "cough"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 15,
+      "text": "Yeah, it's um. I still have a cough.",
+      "keywords": [
+        "cough"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 16,
+      "text": "OK, and are you coughing up any blood?",
+      "keywords": [
+        "coughing up blood"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 17,
+      "text": "No, I haven't. I haven't noticed any any blood.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 18,
+      "text": "OK, how about sputum?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 19,
+      "text": "Um, no sputum.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 20,
+      "text": "No, OK. And do you feel like you're wheezing?",
+      "keywords": [
+        "wheezing"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 21,
+      "text": "Oh no wheezing.",
+      "keywords": [
+        "wheezing"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 22,
+      "text": "No wheezing, OK. Um, the shortness of breath 1 to 10, 10 being the worst, the most severe. How bad is your shortness of breath?",
+      "keywords": [
+        "bad",
+        "shortness of breath",
+        "wheezing"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 23,
+      "text": "I would say when I'm exerting myself, it could get up to like a 7 or 8.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 24,
+      "text": "OK, and you mentioned how, how far can you walk before you need to rest.",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 25,
+      "text": "I I would say maybe 100 meters. But before I was able to run uh like I was running a few days per week so. So this is not like me.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 26,
+      "text": "OK and the chest pain. Is it sharp or is a dull crampy? What does it feel like?",
+      "keywords": [
+        "chest",
+        "crampy",
+        "dull",
+        "pain"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 27,
+      "text": "I say it's sharp.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 28,
+      "text": "OK, have you ever experienced this before?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 29,
+      "text": "No, nothing like like this before at all. I I have never had any, any problems like this before?",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 30,
+      "text": "OK um, and has it changed since it started a week back or has have your symptoms been pretty much the same?",
+      "keywords": [
+        "back",
+        "symptoms"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 31,
+      "text": "They've been pretty much the the the same.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 32,
+      "text": "OK, OK Um, do you have anything like COPD, Congestive heart failure, anything like that?",
+      "keywords": [
+        "copd",
+        "heart failure"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 33,
+      "text": "No, I've never had any heart problems, uh in the past. I've been healthy up to this point though, nothing I see a doctor regularly for.",
+      "keywords": [
+        "heart problems"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 34,
+      "text": "OK, OK. This you mentioned, no fevers, no chills. And no night sweats too I guess?",
+      "keywords": [
+        "chills",
+        "fevers",
+        "night sweats"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 35,
+      "text": "Yeah, no night sweats.",
+      "keywords": [
+        "night sweats"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 36,
+      "text": "OK, and how about weight loss? Any weight loss?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 37,
+      "text": "No weight loss",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 38,
+      "text": "No, OK. Um, have you experienced any changes in your vision?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 39,
+      "text": "Yeah no, my visions been been, been fine.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 40,
+      "text": "OK hearing?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 41,
+      "text": "Hearing has been OK.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 42,
+      "text": "OK, how about smell?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 43,
+      "text": "No changes in smell.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 44,
+      "text": "No, um have you had a stuffy nose or runny nose in the past week or so.",
+      "keywords": [
+        "runny nose",
+        "stuffy nose"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 45,
+      "text": "No, it's just that the dry cough.",
+      "keywords": [
+        "dry cough"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 46,
+      "text": "OK, dry cough. Any changes in your skin like rashes?",
+      "keywords": [
+        "dry cough",
+        "rashes"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 47,
+      "text": "no rashes.",
+      "keywords": [
+        "rashes"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 48,
+      "text": "OK, and you mentioned some chest pain. Any palpitations like you feel like your hearts racing?",
+      "keywords": [
+        "chest",
+        "hearts",
+        "pain"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 49,
+      "text": "Uh, actually I did feel like that a little bit. Especially when I was moving a little bit more, I felt like my heart was racing.",
+      "keywords": [
+        "heart"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 50,
+      "text": "OK, um, any calf pain.",
+      "keywords": [
+        "calf pain"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 51,
+      "text": "Um yeah my left, my left leg's actually a little bit sore.",
+      "keywords": [
+        "left leg",
+        "sore"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 52,
+      "text": "OK, any swelling in the area?",
+      "keywords": [
+        "swelling"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 53,
+      "text": "um uh nope, I don't see any swelling there.",
+      "keywords": [
+        "swelling"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 54,
+      "text": "OK, no?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 55,
+      "text": "Um, Yeah, we'll say that there is swelling.",
+      "keywords": [
+        "swelling"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 56,
+      "text": "Oh, OK. And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?",
+      "keywords": [
+        "shortness of breath on exertion"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 57,
+      "text": "Not when I'm laying down.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 58,
+      "text": "No OK, and not when you're OK, not when you're laying down, OK. Um alright and in terms of like your stool, so bowel movements and urination. Like all of that's normal?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 59,
+      "text": "Yeah, all that's been normal.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 60,
+      "text": "OK, any headaches?",
+      "keywords": [
+        "headaches"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 61,
+      "text": "Um no headaches.",
+      "keywords": [
+        "headaches"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 62,
+      "text": "no, no confusion?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 63,
+      "text": "No confusion.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 64,
+      "text": "OK, how about dizziness or fainting spells?",
+      "keywords": [
+        "dizziness",
+        "fainting spells"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 65,
+      "text": "Um, No fainting spells.",
+      "keywords": [
+        "fainting spells"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 66,
+      "text": "OK, OK, and have you already received any sort of imaging or pulmonary function tests or anything like that for this recently?",
+      "keywords": [
+        "imaging",
+        "pulmonary function tests"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 67,
+      "text": "Oh no. I I I haven't.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 68,
+      "text": "OK and are you otherwise healthy? Do you have any past medical history of any conditions really?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 69,
+      "text": "No, like I've been um previously healthy, but I I guess I did have a hysterectomy a few weeks ago. I know it was, I I didn't bring it up before 'cause it's just a day procedure, but I was definitely spending a lot more time um relaxing at home after that, a few weeks ago.",
+      "keywords": [
+        "lot"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 70,
+      "text": "OK, OK, so you haven't been moving around as much. I guess since the hysterectomy?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 71,
+      "text": "yeah exactly it's starting to it was starting to get, the pain was starting to improve but it was keeping me on the couch a lot of days.",
+      "keywords": [
+        "lot",
+        "pain"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 72,
+      "text": "OK, yeah. Um, are you on any medications?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 73,
+      "text": "Um no I try, I've tried some Tylenol and Advil for the pain throughout this week, and it didn't really help much. But other than that, don't take any any medications, nothing for blood pressure or anything like that.",
+      "keywords": [
+        "pain"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 74,
+      "text": "OK, and sorry. What was the hysterectomy for?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 75,
+      "text": "Um I I was having a lot of bleeding.",
+      "keywords": [
+        "bleeding",
+        "lot"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 76,
+      "text": "OK, so were they thinking it was like a cancer or something?",
+      "keywords": [
+        "cancer"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 77,
+      "text": "Um I think it was um. It was from Fibroids.",
+      "keywords": [
+        "fibroids"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 78,
+      "text": "OK, OK and then,  So you mentioned no medications, any allergies?",
+      "keywords": [
+        "allergies"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 79,
+      "text": "Um no allergies to medications .",
+      "keywords": [
+        "allergies"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 80,
+      "text": "no. And are you up to date with any with all your immunizations?",
+      "keywords": [
+        "date"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 81,
+      "text": "Um, I am yeah.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 82,
+      "text": "you are OK. Any family history of lung conditions?",
+      "keywords": [
+        "lung"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 83,
+      "text": "No lung conditions.",
+      "keywords": [
+        "lung"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 84,
+      "text": "But how about heart?",
+      "keywords": [
+        "heart"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 85,
+      "text": "Yeah, it's just my mom had a heart attack when she was 56.",
+      "keywords": [
+        "heart attack"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 86,
+      "text": "OK, OK. I'm sorry to hear that. And. Any history of family history of something called pulmonary embolism or DVTS.",
+      "keywords": [
+        "dvts",
+        "embolism",
+        "pulmonary"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 87,
+      "text": "Uh, no, I haven't heard of a heard of pulmonary embolism before.",
+      "keywords": [
+        "embolism",
+        "pulmonary"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 88,
+      "text": "OK, so it's basically blood clots in your lung. And then DVT's are deep vein thrombosis. So also blood clots but in different parts of your body.",
+      "keywords": [
+        "blood clots",
+        "dvt",
+        "lung",
+        "vein thrombosis"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 89,
+      "text": "OK.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 90,
+      "text": "Yeah, anything like that that you know of?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 91,
+      "text": "Uh no, I I have might have heard of something like that happening in my mom actually, it might have been related to her heart attack, but I'm not specifically sure.",
+      "keywords": [
+        "heart attack"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 92,
+      "text": "OK, sure. Um an then do you smoke?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 93,
+      "text": "Um I I smoke, I may be about half a pack of cigarettes per day. I've smoked ever since I was a teenager. I've tried to quit multiple times I I was smoking about a pack per day before, so I have cut it down, but still something that I'm working on.",
+      "keywords": [
+        "cut"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 94,
+      "text": "OK good, I'm glad you're trying to cut down. Um, we have resources available if you're interested in some more help. And you smoke um marijuana?",
+      "keywords": [
+        "cut"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 95,
+      "text": "No, I don't.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 96,
+      "text": "OK. Any use of other recreational drugs?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 97,
+      "text": "No, no.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 98,
+      "text": "OK. And how about alcohol? Do you drink alcohol?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 99,
+      "text": "Uh may be a glass of wine on the weekends, but other than that no.",
+      "keywords": [
+        "glass"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 100,
+      "text": "OK. I mean, have you had any sick contacts recently? People around you? People you live with at work.",
+      "keywords": [
+        "sick"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 101,
+      "text": "I can't think of any anybody who's been sick no.",
+      "keywords": [
+        "sick"
+      ]
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 102,
+      "text": "OK, OK, and and what do you do for work Jenn?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 103,
+      "text": "I work as an administrator at at a bank.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 104,
+      "text": "OK, OK. I'm and I have you traveled anywhere recently?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 105,
+      "text": "Um, no I I can't remember the last vacation.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 106,
+      "text": "OK, alright, and so those are all the questions that I had for you. Did you have anything that you wanted to add? Anything that I hadn't touched on?",
+      "keywords": []
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 107,
+      "text": "Um No, I think you covered everything. Thank you.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 108,
+      "text": "OK yeah, no worries. So I guess at this point we would do a physical exam. Just take a listen to your lungs and your chest. After that, so right now it sounds like it could be something vascular you know, like a pulmonary embolism like we talked about. That's kind of high on my list of things to work up for. But also, we don't want to miss other things you know, like cancer, infection, autoimmune things that could affect your lungs, so we'll just do a work up for all of that. How does that sound?",
+      "keywords": [
+        "cancer",
+        "chest",
+        "embolism",
+        "infection",
+        "lungs",
+        "pulmonary",
+        "vascular"
+      ]
+    },
+    {
+      "speaker": "patient",
+      "uttr_id": 109,
+      "text": "Yeah, whatever, whatever you think we need to do.",
+      "keywords": []
+    },
+    {
+      "speaker": "doctor",
+      "uttr_id": 110,
+      "text": "OK sounds good. Thank you for your time.",
+      "keywords": []
+    },
+    {
+      "speaker": "control",
+      "uttr_id": 111,
+      "text": "Add differential diagnosis",
+      "keywords": []
+    }
+  ]
+}

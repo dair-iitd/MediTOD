@@ -1,0 +1,779 @@
+[
+    {
+        "intent": "salutations",
+        "uid": "0"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain,dyspnea",
+        "status": "Yes",
+        "when": "over a week",
+        "uid": "1"
+    },
+    {
+        "intent": "inquire",
+        "slot": "basic information",
+        "age": true,
+        "uid": "2"
+    },
+    {
+        "intent": "inform",
+        "slot": "basic information",
+        "name": "Jen",
+        "uid": "2"
+    },
+    {
+        "intent": "inform",
+        "slot": "basic information",
+        "age": "52",
+        "uid": "3"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "when": "a week back",
+        "when check": true,
+        "uid": "4"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "when": "8 days ago",
+        "uid": "5"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "duration": "constant",
+        "duration check": true,
+        "uid": "6"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "duration": "constant",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes",
+        "uid": "7"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "duration check": true,
+        "uid": "8"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "duration": "15-20 minutes",
+        "uid": "9"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "uid": "10"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "soboe",
+        "status": "Yes",
+        "uid": "11"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "trauma",
+        "location": "chest",
+        "location check": true,
+        "uid": "12"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "trauma",
+        "status": "No",
+        "location": "chest area",
+        "uid": "13"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "No",
+        "uid": "13"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "14"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "uid": "15"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "16"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "17"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "uid": "18"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "No",
+        "uid": "19"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez",
+        "uid": "20"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "No",
+        "uid": "21"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "severity": true,
+        "uid": "22"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "severity": "8",
+        "uid": "23"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "soboe",
+        "severity": true,
+        "uid": "24"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "soboe",
+        "status": "Yes",
+        "severity": "7",
+        "other": "patient runs out of breath after 100m run",
+        "uid": "25"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "characteristics": "sharp,a cramp",
+        "characteristics check": true,
+        "uid": "26"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "characteristics": "sharp",
+        "uid": "27"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "28"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "29"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "all",
+        "progression check": true,
+        "uid": "30"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "all",
+        "status": "Yes",
+        "progression": "unchanged with time",
+        "uid": "31"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "copd,congestive heart failure",
+        "uid": "32"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "copd,congestive heart failure",
+        "status": "No",
+        "uid": "33"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "uid": "34"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "status": "No",
+        "uid": "35"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "uid": "36"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "No",
+        "uid": "37"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vision problem",
+        "uid": "38"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vision problem",
+        "status": "No",
+        "uid": "39"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hearing problem",
+        "uid": "40"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hearing problem",
+        "status": "No",
+        "uid": "41"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "smell problem",
+        "uid": "42"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "smell problem",
+        "status": "No",
+        "uid": "43"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nasal congestion",
+        "uid": "44"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "dry",
+        "uid": "45"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "uid": "46"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "uid": "47"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "palpitation",
+        "uid": "48"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "palpitation",
+        "status": "Yes",
+        "ana factors": "movement",
+        "uid": "49"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "calf",
+        "location check": true,
+        "uid": "50"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "left leg",
+        "uid": "51"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "swelling",
+        "location": "left leg",
+        "uid": "52"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swelling",
+        "status": "No",
+        "location": "left leg",
+        "uid": "53"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "swelling",
+        "location": "left leg",
+        "location check": true,
+        "uid": "54"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swelling",
+        "status": "Yes",
+        "location": "left leg",
+        "uid": "55"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors": "lying down",
+        "ana factors check": true,
+        "uid": "56"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "lying down",
+        "ana factors status": "no",
+        "uid": "57"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "58"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "status": "No",
+        "uid": "59"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "uid": "60"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "61"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "confusion",
+        "uid": "62"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "confusion",
+        "status": "No",
+        "uid": "63"
+    },
+    {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fainting,dizzyness",
+        "uid": "64"
+    },
+    {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fainting,dizzyness",
+        "status": "No",
+        "uid": "65"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "pulmonary function tests",
+        "uid": "66"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "pulmonary function tests",
+        "status": "No",
+        "uid": "67"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "68"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "Yes",
+        "when": "few weeks ago",
+        "other": "hysterectomy",
+        "uid": "69"
+    },
+    {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "hysterectomy",
+        "uid": "70"
+    },
+    {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "hysterectomy",
+        "uid": "71"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "72"
+    },
+    {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "tylenol, advil",
+        "status": "no",
+        "impact": "No",
+        "uid": "73"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery",
+        "other": "cause for hysterectomy",
+        "uid": "74"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "Yes",
+        "other": "cause for hysterectomy: bleeding",
+        "uid": "75"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery",
+        "other": "cause for hysterectomy: cancer",
+        "other check": true,
+        "uid": "76"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "cancer",
+        "uid": "76"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "Yes",
+        "other": "cause for hysterectomy: fibroids",
+        "uid": "77"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "78"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "79"
+    },
+    {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "80"
+    },
+    {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "uid": "81"
+    },
+    {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease",
+        "uid": "82"
+    },
+    {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "lung disease",
+        "status": "No",
+        "uid": "83"
+    },
+    {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "heart disease",
+        "uid": "84"
+    },
+    {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "heart",
+        "status": "Yes",
+        "relation": "mother",
+        "other": "mother died of heart attack at age of 56",
+        "uid": "85"
+    },
+    {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "pulmonary embolism,DVTS",
+        "uid": "86"
+    },
+    {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "pulmonary embolism,DVTS",
+        "uid": "87"
+    },
+    {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "pulmonary embolism,DVTS",
+        "uid": "88"
+    },
+    {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "pulmonary embolism,DVTS",
+        "uid": "89"
+    },
+    {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "pulmonary embolism,DVTS",
+        "uid": "90"
+    },
+    {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "pulmonary embolism,DVTS",
+        "status": "Maybe",
+        "relation": "mother",
+        "uid": "91"
+    },
+    {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "92"
+    },
+    {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "frquency": "half a pack of cigarettes per day",
+        "when": "since teenage",
+        "uid": "93"
+    },
+    {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "smoking",
+        "uid": "94"
+    },
+    {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana",
+        "uid": "94"
+    },
+    {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuama",
+        "status": "No",
+        "uid": "95"
+    },
+    {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "uid": "96"
+    },
+    {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "status": "No",
+        "uid": "97"
+    },
+    {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "98"
+    },
+    {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "No",
+        "frquency": "a glass of wine on the weekends",
+        "uid": "99"
+    },
+    {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "100"
+    },
+    {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "101"
+    },
+    {
+        "intent": "inquire",
+        "slot": "occupation",
+        "uid": "102"
+    },
+    {
+        "intent": "inform",
+        "slot": "occupation",
+        "value": "administrator at a bank",
+        "status": "Yes",
+        "uid": "103"
+    },
+    {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "104"
+    },
+    {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "105"
+    },
+    {
+        "intent": "salutations",
+        "uid": "106"
+    },
+    {
+        "intent": "salutations",
+        "uid": "107"
+    },
+    {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "pulmonary embolism",
+        "status": "Maybe",
+        "uid": "108"
+    },
+    {
+        "intent": "salutations",
+        "uid": "109"
+    },
+    {
+        "intent": "salutations",
+        "uid": "110"
+    }
+]

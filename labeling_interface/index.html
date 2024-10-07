@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Medical Dialog Annotation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/custom_dropdown.css" rel="stylesheet">
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/lunr.js"></script>
+</head>
+
+<body>
+  <br>
+  <div class="container-fluid">
+    <div class="row border row-height-top-bar">
+      <div class="col-3 gap-2 d-grid left border border-secondary rounded border-2 bg-warning bg-opacity-10" style="overflow-y: scroll;">
+        <div class="text-center">
+          <div>
+            <p><h6><i><u><b> >>> DIALOG ANNOTATION <<< </b></u></i></h6></p>
+          </div>
+        </div>
+
+        <div>
+          <input type="file" id="selectFiles" value="Import" /><p></p>
+          <button type="button" class="btn btn-primary btn-sm" id="import">Import Dialog</button>
+          <button type="button" class="btn btn-primary btn-sm" id="save">Save</button>
+          <p></p>
+          <input type="file" id="selectFilesAnn" value="ImportAnnotation" />
+          <p></p>
+          <button type="button" class="btn btn-primary btn-sm" id="import_ann">Load Annotations</button>
+        </div>
+        
+      </div>
+
+      <div class="col-6 gap-2 p-3 right border border-secondary rounded border-2 bg-warning bg-opacity-10" style="overflow-y: scroll;" id="status_box">
+        <table class="table table-bordered border-1 border-dark bg-white table-sm" id="status_table">
+          <thead class="table-dark">
+            <tr>
+              <th style="width: 10.00%" class="text-center">UID</th>
+              <th style="width: 80.00%" class="text-center">Annotation</th>
+              <th style="width: 10.00%" class="text-center"></th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-3 gap-2 p-3 right border border-secondary rounded border-2 bg-warning bg-opacity-10" style="overflow-y: scroll;" id="tracking_box">
+        <table class="table table-bordered border-1 border-dark bg-white table-sm" id="tracking_table">
+          <thead class="table-dark">
+            <tr>
+              <th style="width: 30.00%" class="text-center">Slot</th>
+              <th style="width: 70.00%" class="text-center">Values so far..</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="progress">
+      <div id="progress_bar" class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="row border row-height">
+      <div class="col-5 gap-2 p-3 d-grid left border border-secondary rounded border-2" style="overflow-y: scroll;" id="dlg_box"></div>
+      <div class="col-7 gap-2 p-3 right border border-secondary rounded border-2" style="overflow-y: scroll;" id="ann_box"></div>
+    </div>
+  </div>
+
+  <hr>
+
+  <script>var opmode = "main";</script>
+  <script>var in_edit_mode = false;</script>
+  <script>var edit_status_code = "";</script>
+
+  <script src="js/ontology/intent.js"></script>
+  <script src="js/ontology/basic.js"></script>
+  <script src="js/ontology/exposure.js"></script>
+  <script src="js/ontology/family.js"></script>
+  <script src="js/ontology/habit.js"></script>
+  <script src="js/ontology/occupation.js"></script>
+  <script src="js/ontology/other.js"></script>
+  <script src="js/ontology/residence.js"></script>
+  <script src="js/ontology/travel.js"></script>
+  <script src="js/ontology/symptom.js"></script>
+  <script src="js/ontology/symptom_derma.js"></script>
+  <script src="js/ontology/disease.js"></script>
+  <script src="js/ontology/medication.js"></script>
+  <script src="js/ontology/ddx.js"></script>
+  <script src="js/ontology/slots.js"></script>
+  <script src="js/ontology/tracking.js"></script>
+
+  <script src="js/ux/utils.js"></script>
+  <script src="js/ux/progress.js"></script>
+  <script src="js/ux/form.js"></script>
+  <script src="js/ux/dialog.js"></script>
+  <script src="js/ux/control.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/custom_dropdown.js"></script>
+</body>
+
+</html>

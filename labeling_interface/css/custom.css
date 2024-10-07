@@ -1,0 +1,64 @@
+/*Set the row height to the viewport*/
+.row-height-top-bar{
+    height: 28vh;
+}
+
+.row-height-top-bar-small{
+    height: 20vh;
+}
+
+.right-top-bar{
+    /* background-color: blue; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.left-top-bar{
+    /* background-color: blue; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+.row-height{
+    height: 70vh;
+}
+
+/*Set up the columns with a 100% height, body color and overflow scroll*/
+
+.left{
+    /* background-color: red; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.right{
+    /* background-color: blue; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.btn.btn-info[disabled] {
+    background-color: #bfbfbf;
+    border-color: #bfbfbf;
+}
+
+.btn.btn-warning[disabled] {
+    background-color: #bfbfbf;
+    border-color: #bfbfbf;
+}
+
+* {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none;  /* Firefox */
+}
+
+* -webkit-scrollbar {
+    display: none;
+}
